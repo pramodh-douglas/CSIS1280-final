@@ -14,6 +14,7 @@ const AboutUs = (function () {
   }
 
   const _init = function () {
+    $('#readMore').hide();
     const readMoreButton = $('#readMoreBtn');
     readMoreButton.on('click', _showMore);
   };
