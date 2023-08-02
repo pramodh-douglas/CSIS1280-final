@@ -511,7 +511,7 @@ a:focus {
       margin-top: 20px;
     }
 
-    a {
+    a, button {
       @include hero_btn($btnColor, $white, 8px, 35px);
       margin-top: 30px;
     }
@@ -521,6 +521,11 @@ a:focus {
     img {
       width: 100%;
     }
+  }
+
+  .read-more{
+    padding: 1rem 5%;
+    text-align: justify;
   }
 }
 
